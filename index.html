@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Learn Together</title>
+    <link rel="stylesheet" href="demosite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+    <nav class="motion">
+        <div class="wrapper">
+          <div class="logo"><a href="#"><p style="font-family: 'Times New Roman', Times, serif;">Let's Learn Together</p></a></div>
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li><a href="#">Home</a></li>
+            <li><a href="#sectionA">About</a></li>
+            <li>
+              <a href="#" class="desktop-item">Roadmaps</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Roadmaps</label>
+              <ul class="drop-menu">
+                <li><a href="https://youtube.com/playlist?list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU" target="_blank">Roadmap series</a></li>
+                <li><a href="https://youtu.be/CF1j_wMEbPA" target="_blank">Internship 2nd Year</a></li>
+                <li><a href="https://youtu.be/GLk7-imcjiI" target="_blank">Web Development</a></li>
+                <li><a href="https://youtu.be/c_w2LhuiJ1o" target="_blank">Data Structure</a></li>
+                <li><a href="https://youtu.be/VaMWsm6CFss" target="_blank">Andoid Development</a></li>
+                <li><a href="https://youtu.be/PM8gczl7DVw" target="_blank">Codeforces CM</a></li>
+                <li><a href="https://youtu.be/tIAydH3NnJk" target="_blank">5 star coder</a></li>
+                <li><a href="https://youtu.be/eKqS3OuE4io" target="_blank">Open Sources</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Tutorials</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Tutorials</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <!-- <img src="img.jpg" alt=""> -->
+                  </div>
+                  <div class="row">
+                    <header>Programming Language</header>
+                    <ul class="mega-links">
+                      <li><a href="#section1">C++</a></li>
+                      <li><a href="#section11">C Programming</a></li>
+                      <li><a href="#section13">Python Programming</a></li>
+                      <li><a href="#section12">Java</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Development</header>
+                    <ul class="mega-links">
+                      <li><a href="#section41">Android Development</a></li>
+                      <li><a href="#section42">Web Development</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Core</header>
+                    <ul class="mega-links">
+                      <li><a href="#section3">Data Structure</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Miscellaneous</a>
+              <input type="checkbox" id="showMeka">
+              <label for="showMeka" class="mobile-item">Miscellaneous</label>
+              <div class="meka-box">
+                <div class="content">
+                  <div class="row">
+                    <!-- <img src="img.jpg" alt=""> -->
+                  </div>
+                  <div class="row">
+                    <header>Sheets</header>
+                    <ul class="meka-links">
+                        <li><a href="https://youtu.be/WNtzUR_MwUQ" target="_blank">SDE Sheet</a></li>
+                        <li><a href="https://youtu.be/4iFALQ1ACdA" target="_blank">DSA Sheet</a></li>
+                        <li><a href="https://youtu.be/QtTPohzfxA8" target="_blank">CP list</a></li>
+                        <li><a href="https://youtu.be/bS7Jjhbgt0o" target="_blank">DBMS sheets</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>CP Websites</header>
+                    <ul class="meka-links">
+                        <li><a href="https://codeforces.com/" target="_blank">Codeforces</a></li>
+                        <li><a href="https://www.codechef.com/" target="_blank">Codechef</a></li>
+                        <li><a href="https://leetcode.com/" target="_blank">Leetcode</a></li>
+                        <li><a href="https://www.geeksforgeeks.org/" target="_blank">GFG</a></li>
+                        <li><a href="https://www.hackerrank.com/" target="_blank">HackerRank</a></li>
+                        <li><a href="https://www.hackerearth.com/" target="_blank">HackerEarth</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Others</header>
+                    <ul class="meka-links">
+                      <li><a href="#section5">Strategies</a></li>
+                      <li><a href="#section6">Experiences</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li> 
+            <li><a href="https://forms.gle/J7ow2F6eQkt2xmm38" target="_blank">Feedback</a></li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+      </nav>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-c29b440b3a3971b1a51dbecfa2da9d1c" width="100%">
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            <br><br><br><br>
+            <img src="https://qphs.fs.quoracdn.net/main-qimg-ed945e959666fa053da5f79ca91d77b3" width="100%">
+            <br><br><br><br><br>
+            <img src="https://qphs.fs.quoracdn.net/main-qimg-6d643fb44edb257cf6eb193b175b92a0" width="100%">
+            <br><br><br><br>
+            <br><br>
+        <div class="abouts"  id="sectionA">
+            <br><br><br>
+                 <hr>
+                 <strong style="font-size: 30px; font-family: 'Times New Roman', Times, serif;">&nbsp About Me &nbsp</strong>
+                 <br>
+                 <img src="https://qphs.fs.quoracdn.net/main-qimg-2fba45e0b9c4c19d8e42f1f71d15df60" width="100%">
+                 <br>
+                 <p style="font-family: 'Times New Roman', Times, serif; color: darkgreen; font-size: 20px;">&nbsp &nbsp My Social Media Handels</p><br>
+                 <br>
+                 <div class="sm" style="align-content: center;">
+                    <a href="https://www.linkedin.com/in/md-reyaz-alam/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/Reyazmra7" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/Reyazmra/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/reyazmra/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto: mra78678@gmail.com.com" target="_blank"></i><img src="https://qphs.fs.quoracdn.net/main-qimg-cca1ebcd01a791088ac12803d34239c9" height="40%"></a>
+                  </div>
+                  <hr>
+        </div>
+    <div class="container">
+        <p id="cornerstart">Welcome to this website <b>Let's Learn Together. </b><br>
+        This website is providing you many important content which is mostly searched by engineering students in google, youtube etc My Motive is to available all the 
+        genuine and best resources from the internet in a single platform which will help you to find the best contents what you guys looking for۔</p><br>
+        <dl id="corner2">
+            <dt><b>Roadmaps</b> -</dt>
+            <dd id="corner">Roadmap is the most important things to start a course here you can find the way of learning</dd>
+            <dt><b>Programming Language</b> - </dt>
+            <dd id="corner">C, CPP, Python and Java related courses link are available in this Website
+            from some of the best resources which are easy to understand for us</dd><br>
+            <dt><b>Data structure</b> -</dt> 
+            <dd id="corner">For computer science engineering students and for those who want to make their career in IT sector,
+                For them, data structure is the most important subject.
+                 I've included some great resources.</dd><br>
+            <dt><b>Development</b> -</dt> 
+            <dd id="corner">In Development part, I've linked Web Development and Android Development.</dd><br>
+            <dt><b>Sheets</b> -</dt> 
+            <dd id="corner">If you have an interview or have a coding test then you must solve thats problem of sheets, as many students have cracked test of Top companies
+                after solving the problems of the sheets, and some of them got internship in PBC, so I am suggesting you to check it once.</p></dd><br>
+            <dt><b>Competative Programming Sites</b> -</dt>
+            <dd id="corner">I have included only a few platforms for competitive programming that most students use.</dd> <br>
+            <dt><b>Strategies</b> -</dt> 
+            <dd id="corner"><i>How to start</i>, <i>from where to start</i>, some of the best ways to start your journey, visit at once in Strategies Part.</dd><br>
+            <dt><b>Miscellaneous</b> -</dt> 
+            <dd id="corner">Interviews Experience. internships and many more.</dd> 
+            <br>
+            <p style="font-family: 'Times New Roman', Times, serif; background-color: red;color: white;  margin-left: 20px;">Fill the Feedback form for Rating, Suggestion and for improvement.</p><br>
+            <button style="background-color: rgb(13, 173, 173);  margin-left: 25px; font-size: 25px;"><a href="https://forms.gle/J7ow2F6eQkt2xmm38" target="_blank" style="color: white; font-family: 'Times New Roman', Times, serif; text-decoration: none;">Click Here</a></button>
+        </dl>
+    </div>
+   <br><br><br><br><br><br>
+    <div id="section1">
+        <hr>
+        <br>
+        <h3>Programming Language</h3> 
+        <br>        
+        <table style="width: 100%;">
+            <tr style="background-color: rgba(0, 100, 0, 0.562);">
+                <th>Language Name</th>
+                <th>By</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td rowspan="5" style="font-family: 'Times New Roman', Times, serif; font-size: 35px;">C++</td>
+                <td>Apna College</td>
+                <td><a href="https://youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Edureka</td>
+                <td><a href="https://youtu.be/BClS40yzssA">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Saurav Shukla</td>
+                <td><a href="https://youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>code with Harry</td>
+                <td><a href="https://youtu.be/yGB9jhsEsr8" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Free Codecamp</td>
+                <td><a href="https://youtu.be/vLnPwxZdW4Y" target="_blank">Click Here</a></td>
+            </tr>
+        </table>
+        <br><br>
+        <br><br><br>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-2aaefab8b9aef0d8bab89f60997084ff" width="100%">
+    </div>
+    <br><br><br><br><br><br>
+    <div id="section11">
+        <hr>
+        <br>
+        <h3>Programming Language</h3>         
+        <br>
+        <table style="width: 100%;">
+            <tr>
+                <th>Language Name</th>
+                <th>By</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td rowspan="5" style="font-family: 'Times New Roman', Times, serif; font-size: 35px;">C Programming</td>
+                <td>Neso Academy</td>
+                <td><a href="https://youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>MySirg.com</td>
+                <td><a href="https://youtube.com/playlist?list=PLe_7x5eaUqtWp9fvsxhC4XIkoR3n5A-sF">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Naresh i Technology</td>
+                <td><a href="https://youtube.com/playlist?list=PLVlQHNRLflP8IGz6OXwlV_lgHgc72aXlh" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Jenny's Lecture</td>
+                <td><a href="https://youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>My created contents of C Programming,You can also Check This</td>
+                <td><a href="https://youtube.com/playlist?list=PL-uVsy3Vi5JJhgxCY9tLerBNdLQbKqt24" target="_blank">Click Here</a></td>
+            </tr>
+        </table>
+        <br><br>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-d20b4456ab175aee356904e8ab81ccf1" width="100%">
+    </div>
+    <br><br><br><br><br><br>
+    <div id="section12">
+        <hr>
+        <br>
+        <h3>Programming Language</h3>         
+        <br>
+        <table style="width: 100%;">
+            <tr>
+                <th>Language Name</th>
+                <th>By</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td rowspan="3" style="font-family: 'Times New Roman', Times, serif; font-size: 35px;">Python Programming</td>
+                <td>Telusko(NavinReddy)</td>
+                <td><a href="https://youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Edureka</td>
+                <td><a href="https://youtu.be/N0lxfilGfak">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Code With Harry</td>
+                <td><a href="https://youtube.com/playlist?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME" target="_blank">Click Here</a></td>
+            </tr>
+        </table>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-0df54d0a2dfcde9e6ef858ba1f343347" width="100%">
+        <hr>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-1a9c8afcf702ad9039b142148d92d629" width="100%">
+    </div>
+    <br><br><br><br><br><br>
+    <div id="section13">
+        <hr>
+        <br>
+        <h3>Programming Language</h3>         
+        <br>
+        <table style="width: 100%;">
+            <tr>
+                <th>Language Name</th>
+                <th>By</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td rowspan="5" style="font-family: 'Times New Roman', Times, serif; font-size: 35px;">Java</td>
+                <td>Telusko(NavinReddy)</td>
+                <td><a href="https://youtube.com/playlist?list=PLGwb7xZHg-oMv1pOlTHAqAEjw0EPALzlL" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Edureka</td>
+                <td><a href="https://youtu.be/aqHhpahguVY">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Code With Harry</td>
+                <td><a href="https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Pepcoding</td>
+                <td><a href="https://youtube.com/playlist?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk">Click here</a></td>
+            </tr>
+            <tr>
+                <td>Anuj Bhaiya</td>
+                <td><a href="https://youtu.be/aQatrXw0njs">Click Here</a></td>
+            </tr>
+        </table>
+        <br><br><br>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-b8857f7c74cd6977cc5566da1943b46f" width="100%">
+        <hr>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-a9b959977c7adf9185e1bfce5794f9db" width="100%">
+    </div>
+    <br><br><br><br><br><br>
+    <div id="section3">
+        <hr>
+        <br>
+        <h3>Data structure</h3>  
+        <br>       
+        <table style="width: 100%;">
+            <tr>
+                <th>Topic</th>
+                <th>By</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td rowspan="7" style="font-family: 'Times New Roman', Times, serif; font-size: 35px;">Data Structure</td>
+                <td>Abdul Bari(Udemy-paid)</td>
+                <td><a href="https://www.udemy.com/share/101Woe/" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Jenny's Lecture</td>
+                <td><a href="https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Naresh i Technology</td>
+                <td><a href="https://youtube.com/playlist?list=PLVlQHNRLflP_OxF1QJoGBwH_TnZszHR_j" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Code with Harry</td>
+                <td><a href="https://youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Code N Code</td>
+                <td><a href="https://youtube.com/channel/UC0zvY3yIBQTrSutsV-4yscQ" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>DSA-self Placed Course(GFG-PAID)</td>
+                <td><a href="https://practice.geeksforgeeks.org/courses/dsa-doubt-assistance" target="_blank">website</a></td>
+            </tr>
+            <tr>
+                <td>GeeksforGeeks</td>
+                <td><a href="https://www.geeksforgeeks.org/data-structures/" target="_blank">Website</a></td>
+            </tr>
+        </table>
+        <br><br>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-930f92733dd4e4f5518b33785cd29050" width="100%">
+    </div>
+    <br><br><br><br><br><br>
+    <div id="section42">
+        <hr>
+        <h3>Development</h3>         
+        <table style="width: 100%;">
+            <tr>
+                <th>Content Name</th>
+                <th>By</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td rowspan="6" style="font-family: 'Times New Roman', Times, serif; font-size: 35px;">Web Development</td>
+                <td>Apna College</td>
+                <td><a href="https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Angela Yu(udemy-paid)</td>
+                <td><a href="https://www.udemy.com/share/1013gG/">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Code With Harry</td>
+                <td><a href="https://youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>LearnCode.Academy</td>
+                <td><a href="https://youtube.com/playlist?list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>FreeCodeCamp</td>
+                <td><a href="https://youtu.be/mU6anWqZJcc" target="_blank">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>Traversy Media</td>
+                <td><a href="https://youtu.be/VfGW0Qiy2I0" target="_blank">Click Here</a></td>
+            </tr>
+        </table>
+        <br>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-4d47bc1f075d98f79baefb8a4cb3489e" width="100%">
+    </div>
+        <br><br><br><br><br><br>
+        <div id="section41">
+            <hr>
+            <br>
+            <h3>Development</h3>         
+            <br>
+            <table style="width: 100%;">
+                <tr>
+                    <th>Topic</th>
+                    <th>By</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td rowspan="5" style="font-family: 'Times New Roman', Times, serif; font-size: 35px;">Android Development</td>
+                    <td>Code With Harry</td>
+                    <td><a href="https://youtube.com/playlist?list=PLu0W_9lII9aiL0kysYlfSOUgY5rNlOhUd" target="_blank">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>Anuj Bhaiya</td>
+                    <td><a href="https://youtube.com/playlist?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb">Click Here</a></td>
+                </tr>
+            </table>
+            <br><br><br>
+            <img src="https://qphs.fs.quoracdn.net/main-qimg-b8d88b5f91c5abea29af30a75f80baec" width="100%">
+        </div>
+        <br><br><br><br><br><br>
+    <div id="section5">
+        <hr>
+        <br>
+        <h3>Strategy</h3>
+        <br>
+        <table width="100%">
+            <tr>
+                 <td style="background-color: rgb(184, 218, 180);" >How I prepared for coding interviews of Microsoft, Amazon, Google, Apple & Facebook</td>
+                 <td><a href="https://youtu.be/HYK5lpkKBPo" target="_blank">Open Youtube</a></td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(184, 218, 180);">GUIDE for COMPETITIVE PROGRAMMING</td>
+                <td><a href="https://youtu.be/zZOQVLll9u4" target="_blank">Open Youtube</a></td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(184, 218, 180);">How to secure off-campus placement in India</td>
+                <td><a href="https://youtu.be/w5B_VFDDw-Q" target="_blank">Open Youtube</a></td>
+            </tr>
+        </table>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-f074785e29af0f64a76841718aa5e939" width="100%">
+    </div>
+    <br><br><br><br><br><br>
+    <div id="section6">
+        <hr>
+        <br>
+        <h3>Experiences</h3>
+        <br>
+        <table width="100%">
+            <tr>
+                <th style="background-color: rgb(68, 212, 68);">Google</th>
+                <th style="background-color: rgb(68, 212, 68);">Link</th>
+            </tr>
+            <tr>
+                <td>Off-campus | on-campus | Internship and PPO</td>
+                <td><a href="https://youtu.be/nAKsw-SN6Zk" target="_blank">View Here</a></td>
+            </tr>
+            <tr>
+                <td>Interview Experience</td>
+                <td><a href="https://youtu.be/fNpQrYwxsvo" target="_blank">View Here</a></td>
+            </tr>
+            <tr>
+                <th style="background-color: rgb(218, 179, 7);">Amazon</th>
+                <th style="background-color: rgb(218, 179, 7);">Link</th>
+            </tr>
+            <tr>
+                <td>Off-campus | on-campus | Internship and PPO</td>
+                <td><a href="https://youtu.be/teEZ9j7GQxA" target="_blank">View Here</a></td>
+            </tr>
+            <tr>
+                <td>Interview Experience</td>
+                <td><a href="https://youtu.be/RndUweLSWfE" target="_blank">View Here</a></td>
+            </tr>
+            <tr>
+                <td>How to be a software engineer at Amazon</td>
+                <td><a href="https://youtu.be/esXs3QAbqfA" target="=_blank">View Here</a></td>
+            </tr>
+            <tr>
+                <th style="background-color: rgba(250, 24, 24, 0.952);">Microsoft</th>
+                <th style="background-color: rgb(250, 24, 24, 0.952);">Link</th>
+            </tr>
+            <tr>
+                <td>Off-campus | on-campus | Internship and PPO</td>
+                <td><a href="https://youtu.be/T0x81g7s51o" target="_blank">Open Here</a></td>
+            </tr>
+            <tr>
+                <td>2nd Year off-campus Internship</td>
+                <td><a href="https://youtu.be/fhACXLhrfd0" target="_blank">Open Here</a></td>
+            </tr>
+            <tr>
+                <td>How to be a software engineer at Microsoft</td>
+                <td><a href="https://youtu.be/tzei6YoqQeM" target="_blank">Open Here</a></td>
+            </tr>
+        </table>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-1ecf9998eacf2c9d72f2469c5d36a7d4" width="100%">
+    </div>
+</body>
+<br><br><br><br><br><br>
+</html>
