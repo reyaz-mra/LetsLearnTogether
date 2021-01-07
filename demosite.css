@@ -407,7 +407,7 @@ nav input{
   background: rgba(40, 43, 40, 0.158);
   color: rgb(15, 12, 12);
   padding: 10px;
-  width: 70%;
+  margin-right: 30px;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 30px;
  
@@ -416,7 +416,7 @@ nav input{
   border-radius: 25px;
   background: rgb(185, 230, 185);
   padding: 10px;
-  width: 70%;
+  margin-right: 30px;
   margin-left: 30px;
   font-family: 'Times New Roman', Times, serif;
  
